@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matheus Cardoso — Portfólio</title>
+<meta name="description" content="Matheus Cardoso — Analista de Sistemas, Suporte e Implantação de ERP e Desenvolvedor Júnior. Projetos, casos reais e trajetória.">
+<meta property="og:title" content="Matheus Cardoso — Portfólio">
+<meta property="og:description" content="Analista de Sistemas · Suporte e Implantação de ERP · Desenvolvedor Júnior. Projetos em PowerShell, Python, Kotlin e Docker.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://portfolio.mysolucoesemti.com.br/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:url" content="https://portfolio.mysolucoesemti.com.br/">
+<meta property="og:image" content="https://portfolio.mysolucoesemti.com.br/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%230b0d0c%22/%3E%3Ctext x=%2232%22 y=%2242%22 font-size=%2228%22 font-family=%22Arial%22 font-weight=%22bold%22 fill=%22%2386E33A%22 text-anchor=%22middle%22%3EM.Y%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0d0c;--bg2:#121513;--card:#171b18;--line:#26302a;--neon:#86E33A;--neon2:#5fb823;--red:#E23A3A;--beige:#E9DDB9;--txt:#e9ece8;--mut:#9aa39b}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--txt);font:16px/1.6 "IBM Plex Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--neon);text-decoration:none}
+h1,h2,h3{font-family:"Chakra Petch",sans-serif;line-height:1.15;letter-spacing:.2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+nav{position:sticky;top:0;z-index:10;background:rgba(11,13,12,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:58px}
+.logo{font-family:"Chakra Petch";font-weight:700;font-size:18px;color:var(--txt)}
+.logo b{color:var(--neon)}
+nav ul{display:flex;gap:22px;list-style:none;font-size:14px}
+nav ul a{color:var(--mut)} nav ul a:hover{color:var(--neon)}
+@media(max-width:720px){nav ul{display:none}}
+header{padding:84px 0 64px;position:relative;overflow:hidden}
+header:before{content:"";position:absolute;inset:0;background:
+ radial-gradient(600px 300px at 85% 10%,rgba(134,227,58,.13),transparent 70%),
+ linear-gradient(transparent 95%,rgba(134,227,58,.05) 95%) 0 0/100% 32px,
+ linear-gradient(90deg,transparent 95%,rgba(134,227,58,.05) 95%) 0 0/32px 100%;pointer-events:none}
+.tag{display:inline-flex;align-items:center;gap:8px;font:500 13px "IBM Plex Mono",monospace;color:var(--neon);border:1px solid rgba(134,227,58,.35);padding:5px 12px;border-radius:99px;margin-bottom:22px}
+.tag i{width:8px;height:8px;border-radius:50%;background:var(--neon);box-shadow:0 0 10px var(--neon)}
+header h1{font-size:clamp(38px,6vw,62px);font-weight:700}
+header h1 span{color:var(--neon)}
+header .role{font:600 clamp(18px,2.4vw,23px) "Chakra Petch";color:var(--beige);margin:14px 0 18px}
+header p.lead{max-width:640px;color:var(--mut);font-size:17px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{display:inline-block;padding:11px 20px;border-radius:8px;font-weight:600;font-size:15px;border:1px solid var(--neon);transition:.2s}
+.btn.p{background:var(--neon);color:#0b0d0c}.btn.p:hover{background:#a3f05f}
+.btn.s{color:var(--neon)}.btn.s:hover{background:rgba(134,227,58,.1)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:48px}
+.stat{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:16px}
+.stat b{display:block;font:700 26px "Chakra Petch";color:var(--neon)}
+.stat span{font-size:13px;color:var(--mut)}
+@media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr)}}
+section{padding:64px 0;border-top:1px solid var(--line)}
+.sh{display:flex;align-items:baseline;gap:14px;margin-bottom:28px}
+.sh small{font:500 13px "IBM Plex Mono";color:var(--neon)}
+.sh h2{font-size:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;transition:.2s;display:flex;flex-direction:column}
+.card:hover{border-color:rgba(134,227,58,.5);transform:translateY(-2px)}
+.card .ic{font:600 12px "IBM Plex Mono";color:var(--neon);margin-bottom:10px;letter-spacing:.5px}
+.card h3{font-size:20px;margin-bottom:8px}
+.card p{color:var(--mut);font-size:15px}
+.card ul{margin:12px 0 0 18px;color:var(--txt);font-size:14px}
+.card ul li{margin:4px 0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:16px}
+.chip{font:500 12px "IBM Plex Mono";background:rgba(134,227,58,.08);color:var(--neon);border:1px solid rgba(134,227,58,.22);padding:3px 9px;border-radius:6px}
+.badge{display:inline-block;font:600 11px "IBM Plex Mono";color:#0b0d0c;background:var(--beige);padding:2px 8px;border-radius:4px;margin-left:6px;vertical-align:middle}
+.cases .card{border-left:3px solid var(--neon)}
+.case-k{font:500 12px "IBM Plex Mono";color:var(--red);margin-bottom:6px}
+.stack{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.stack div{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:18px}
+.stack h3{font-size:16px;color:var(--beige);margin-bottom:10px}
+.tl{position:relative;padding-left:26px}
+.tl:before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--neon),var(--line))}
+.ti{position:relative;margin-bottom:26px}
+.ti:before{content:"";position:absolute;left:-26px;top:7px;width:14px;height:14px;border-radius:50%;background:var(--bg);border:2px solid var(--neon)}
+.ti.now:before{background:var(--neon);box-shadow:0 0 12px var(--neon)}
+.ti h3{font-size:18px}
+.ti .m{font:500 13px "IBM Plex Mono";color:var(--mut);margin:2px 0 6px}
+.ti p{color:var(--mut);font-size:15px;max-width:760px}
+.edu{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:720px){.edu{grid-template-columns:1fr}}
+.contact{background:linear-gradient(135deg,var(--card),#10180f);border:1px solid rgba(134,227,58,.3);border-radius:16px;padding:34px;text-align:center}
+.contact h2{font-size:30px;margin-bottom:10px}
+.contact p{color:var(--mut);margin-bottom:22px}
+.contact .cta{justify-content:center}
+.contact .raw{margin-top:18px;font:13px "IBM Plex Mono";color:var(--mut)}
+footer{padding:28px 0;text-align:center;color:var(--mut);font-size:13px;border-top:1px solid var(--line)}
+footer b{color:var(--neon)}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="logo" href="#top">M<b>.</b>Cardoso</a>
+  <ul><li><a href="#projetos">Projetos</a></li><li><a href="#casos">Casos</a></li><li><a href="#stack">Stack</a></li><li><a href="#trajetoria">Trajetória</a></li><li><a href="#contato">Contato</a></li></ul>
+</div></nav>
+
+<header id="top"><div class="wrap" style="position:relative">
+  <div class="tag"><i></i>Aberto a oportunidades</div>
+  <h1>Matheus Elias<br><span>Costa Cardoso</span></h1>
+  <div class="role">Analista de Sistemas · Suporte e Implantação de ERP · Desenvolvedor Júnior</div>
+  <p class="lead">Formado em Análise e Desenvolvimento de Sistemas e cursando Engenharia de Software. Venho da infraestrutura, e hoje construo os sistemas que automatizam o trabalho que eu fazia: APIs, apps, automação e monitoramento, com deploy em Docker e Linux.</p>
+  <div class="cta">
+    <a class="btn p" href="https://www.linkedin.com/in/matheus-cardoso-62406b286">LinkedIn</a>
+    <a class="btn s" href="https://github.com/EngMatheusCardoso">GitHub</a>
+    <a class="btn s" href="#projetos">Ver projetos</a>
+    <a class="btn s" href="#contato">Contato</a>
+  </div>
+  <div class="stats">
+    <div class="stat"><b>3+</b><span>anos em TI corporativa</span></div>
+    <div class="stat"><b>200+</b><span>testes automatizados no console de automação</span></div>
+    <div class="stat"><b>1º</b><span>app vendido: Kotlin + FastAPI em produção</span></div>
+    <div class="stat"><b>3</b><span>ERPs suportados: Golden, Easy4me e Colibri</span></div>
+  </div>
+</div></header>
+
+<section id="projetos"><div class="wrap">
+  <div class="sh"><small>01</small><h2>Projetos</h2></div>
+  <div class="grid">
+    <div class="card">
+      <div class="ic">// AUTOMAÇÃO · DESKTOP</div>
+      <h3>Console MSP <span class="badge">em uso</span></h3>
+      <p>Ferramenta de técnico em PowerShell com interface WinForms, rodada direto do pendrive em qualquer Windows (inclusive Server e outros idiomas).</p>
+      <ul>
+        <li>Preventiva em etapas: inventário, SMART, limpeza, rede, impressoras, segurança</li>
+        <li>Instalação de apps por checkbox, com instaladores offline</li>
+        <li>Pontuação de segurança 0–100, relatórios HTML/PDF e resumo no WhatsApp</li>
+        <li>Agente Zabbix com auto-registro e VPN com cadastro do peer pela API</li>
+        <li>Mais de 200 testes automatizados, build reprodutível e atualização assinada</li>
+      </ul>
+      <div class="chips"><span class="chip">PowerShell</span><span class="chip">WinForms</span><span class="chip">SNMP</span><span class="chip">Zabbix API</span><span class="chip">WireGuard</span></div>
+    </div>
+    <div class="card">
+      <div class="ic">// MOBILE · BACKEND</div>
+      <h3>Pesquisas de campo <span class="badge">vendido</span></h3>
+      <p>Sistema para uma empresa de pesquisas acompanhar os entrevistadores em tempo real e controlar metas por setor.</p>
+      <ul>
+        <li>App de campo nativo Android (Kotlin) com envio de localização</li>
+        <li>App do gestor com mapa dos entrevistadores e edição das pesquisas</li>
+        <li>Painel web com a marca do cliente e atualização do app pelo próprio app</li>
+        <li>Segurança e backup (restic) entregues antes das novas funcionalidades</li>
+      </ul>
+      <div class="chips"><span class="chip">Kotlin</span><span class="chip">FastAPI</span><span class="chip">SQLite</span><span class="chip">Docker</span><span class="chip">Cloudflare</span></div>
+    </div>
+    <div class="card">
+      <div class="ic">// API · INFRA</div>
+      <h3>API central + VPN</h3>
+      <p>API em Python que recebe as visitas técnicas, guarda clientes e máquinas, calcula receita recorrente e registra peers de VPN.</p>
+      <ul>
+        <li>Registro de peers WireGuard por HTTPS, funcionando mesmo com o servidor atrás de CGNAT</li>
+        <li>Timer systemd aplica os peers pendentes e confirma na API</li>
+        <li>Identidade estável por serial da BIOS, sem duplicatas</li>
+        <li>Relay de mensagens WhatsApp (WAHA) com token Bearer</li>
+      </ul>
+      <div class="chips"><span class="chip">Python</span><span class="chip">REST</span><span class="chip">systemd</span><span class="chip">Caddy</span><span class="chip">WireGuard</span></div>
+    </div>
+    <div class="card">
+      <div class="ic">// OBSERVABILIDADE</div>
+      <h3>Monitoramento Zabbix</h3>
+      <p>Stack de monitoramento em Docker para clientes, com alertas no WhatsApp que valem a pena ler.</p>
+      <ul>
+        <li>Grupos por cliente e janelas de manutenção fora do expediente</li>
+        <li>Filtros por regex e severidade para cortar o ruído</li>
+        <li>Ajustes automatizados por scripts na API do Zabbix</li>
+      </ul>
+      <div class="chips"><span class="chip">Zabbix 7</span><span class="chip">PostgreSQL</span><span class="chip">Docker Compose</span><span class="chip">Grafana</span></div>
+    </div>
+    <div class="card">
+      <div class="ic">// WEB · AGENDAMENTO</div>
+      <h3>App de agendamento</h3>
+      <p>Agendamento online com vitrine de produtos e aviso ao dono pelo WhatsApp, feito para uma barbearia.</p>
+      <div class="chips"><span class="chip">Web</span><span class="chip">WhatsApp</span><span class="chip">Docker</span></div>
+    </div>
+    <div class="card">
+      <div class="ic">// REDES</div>
+      <h3>Failover de links</h3>
+      <p>Failover recursivo em MikroTik com monitoramento de DNS públicos por link, limpeza de conexões na troca e log persistente. Testado com failback automático.</p>
+      <div class="chips"><span class="chip">MikroTik</span><span class="chip">RouterOS</span><span class="chip">Scripting</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="casos" class="cases"><div class="wrap">
+  <div class="sh"><small>02</small><h2>Casos reais</h2></div>
+  <div class="grid">
+    <div class="card"><div class="case-k">SQL SERVER · ERRO 945</div><h3>Instância que não subia</h3><p>O ERRORLOG mostrou o master de template apontando os bancos de sistema para um caminho inexistente. Subi em modo mínimo com -T3608, corrigi com MODIFY FILE e recriei o acesso sysadmin.</p></div>
+    <div class="card"><div class="case-k">ERP · ERRO 26</div><h3>Servidor que resolvia para IP público</h3><p>Com NetBIOS desligado, o roteador mandava um sufixo DNS que respondia qualquer nome. Achei o servidor consultando a porta UDP 1434 de cada IP e corrigi a resolução de nomes.</p></div>
+    <div class="card"><div class="case-k">NF-E · PATTERN</div><h3>Nota rejeitada só nos itens com lote</h3><p>O Registro MS estava vazio nos produtos com lote. Corrigi os dados no SQL Server, retransmiti a nota e criei a orientação para evitar novos casos.</p></div>
+    <div class="card"><div class="case-k">LINUX · LVM</div><h3>Disco em 100% sem downtime</h3><p>Expandi o VHDX no Hyper-V e propaguei pelo LVM (pvresize, lvextend, resize2fs) com o servidor ligado: o uso caiu de 100% para 46%.</p></div>
+    <div class="card"><div class="case-k">POWERSHELL · AMSI</div><h3>Falso positivo do Defender</h3><p>O script foi bloqueado como malicioso. Removi os padrões de "código gerando código" e o console voltou a abrir sem precisar de exclusões.</p></div>
+    <div class="card"><div class="case-k">VPN · CGNAT</div><h3>Registro separado do túnel</h3><p>O SSH era inalcançável por causa do CGNAT. Passei o registro dos peers para HTTPS 443 e um timer no servidor aplica as mudanças. O túnel sobe sozinho.</p></div>
+  </div>
+</div></section>
+
+<section id="stack"><div class="wrap">
+  <div class="sh"><small>03</small><h2>Stack</h2></div>
+  <div class="stack">
+    <div><h3>Desenvolvimento</h3><div class="chips" style="padding:0"><span class="chip">C#</span><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">Kotlin</span><span class="chip">JavaScript</span><span class="chip">TypeScript</span><span class="chip">Node.js</span><span class="chip">PowerShell</span><span class="chip">Git</span></div></div>
+    <div><h3>Banco de dados</h3><div class="chips" style="padding:0"><span class="chip">SQL Server</span><span class="chip">MySQL</span><span class="chip">PostgreSQL</span><span class="chip">SQLite</span><span class="chip">Firebird</span></div></div>
+    <div><h3>DevOps e infraestrutura</h3><div class="chips" style="padding:0"><span class="chip">Docker</span><span class="chip">Linux</span><span class="chip">Windows Server</span><span class="chip">Active Directory</span><span class="chip">Proxmox</span><span class="chip">Cloudflare</span><span class="chip">Zabbix</span></div></div>
+    <div><h3>Sistemas e redes</h3><div class="chips" style="padding:0"><span class="chip">ERP</span><span class="chip">NF-e/NFC-e</span><span class="chip">SNGPC</span><span class="chip">MikroTik</span><span class="chip">pfSense</span><span class="chip">WireGuard</span><span class="chip">VLAN</span></div></div>
+  </div>
+</div></section>
+
+<section id="trajetoria"><div class="wrap">
+  <div class="sh"><small>04</small><h2>Trajetória</h2></div>
+  <div class="tl">
+    <div class="ti now"><h3>Analista de Suporte e Implantação de Sistemas</h3><div class="m">Solução Informática · 08/2026 – atual</div><p>Suporte N2 e implantação dos ERPs Golden Pharma, Easy4me e Colibri. Análise e correção de dados em SQL Server e MySQL, NF-e/NFC-e, configuração fiscal e relatórios Anvisa.</p></div>
+    <div class="ti now"><h3>Fundador · Infraestrutura e Desenvolvimento</h3><div class="m">M.Y Soluções em T.I · 10/2025 – atual</div><p>Suporte de TI recorrente, ponto eletrônico, monitoramento e desenvolvimento de sistemas próprios e sob demanda.</p></div>
+    <div class="ti"><h3>Field Service · Técnico de TI</h3><div class="m">Findup / Security / Stefanini · 10/2025 – atual (sob demanda)</div><p>Atendimento presencial em bancos, lotéricas, varejo e indústrias, com foco em SLA.</p></div>
+    <div class="ti"><h3>Coordenador de TI</h3><div class="m">Danty Informática · 06/2024 – 10/2025</div><p>Windows Server, Active Directory, GPO, VPN, pfSense e monitoramento com Zabbix e Grafana.</p></div>
+    <div class="ti"><h3>Técnico de Informática</h3><div class="m">Hard Lan Informática · 04/2023 – 06/2024</div><p>Hardware Dell e HP, redes corporativas, MikroTik e Aruba.</p></div>
+  </div>
+  <div class="edu" style="margin-top:20px">
+    <div class="card"><div class="ic">// FORMAÇÃO</div><h3>Engenharia de Software</h3><p>Cruzeiro do Sul · 2026 – atual</p><h3 style="margin-top:12px">Análise e Desenvolvimento de Sistemas</h3><p>UNILAGO · 2022 – 2025</p></div>
+    <div class="card"><div class="ic">// CERTIFICAÇÕES</div><ul style="margin-top:0"><li>IA Generativa — Google Cloud / SENAI</li><li>CCNA v7 Módulos 1 e 2 — Cisco / SENAI</li><li>Oracle Java Fundamentals — SENAI</li><li>Power BI — SENAI</li><li>Dell e HP Enterprise Support</li></ul></div>
+  </div>
+</div></section>
+
+<section id="contato"><div class="wrap">
+  <div class="contact">
+    <h2>Vamos conversar?</h2>
+    <p>Busco oportunidades como Analista de Sistemas, Analista de Suporte de Sistemas/ERP ou Desenvolvedor Júnior. Presencial, híbrido ou remoto.</p>
+    <div class="cta">
+      <a class="btn p" href="https://www.linkedin.com/in/matheus-cardoso-62406b286">LinkedIn</a>
+      <a class="btn s" href="https://wa.me/5517936198079">WhatsApp</a>
+      <a class="btn s" href="mailto:contato@mysolucoesemti.com.br">E-mail</a>
+      <a class="btn s" href="https://github.com/EngMatheusCardoso">GitHub</a>
+      <a class="btn s" href="https://www.instagram.com/dev_matheus.cardoso">Instagram</a>
+    </div>
+    <div class="raw">contato@mysolucoesemti.com.br · (17) 93619-8079 · São José do Rio Preto/SP e região</div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">Matheus Cardoso · <a href="https://www.mysolucoesemti.com.br"><b>M.Y</b> Soluções em T.I</a> · <a href="https://www.instagram.com/my.solucoes.em.ti">@my.solucoes.em.ti</a> · <a href="https://github.com/EngMatheusCardoso/portfolio">código deste site</a></div></footer>
+</body>
+</html>
